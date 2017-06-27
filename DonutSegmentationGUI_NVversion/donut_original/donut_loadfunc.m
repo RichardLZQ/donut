@@ -24,7 +24,7 @@ switch get(gh.main.pop_loadtype,'value')
         tmpseq=1:2:Templen-1;
         DataTemp.ImRaw=ImRaw(:,:,tmpseq);
     case 3
-        ImRaw=ScanImageTiffReader('FilePath').data();
+        ImRaw=ScanImageTiffReader(FilePath).data();
         Templen=size(ImRaw,3);
         tmpseq=2:2:Templen;
         DataTemp.ImRaw=ImRaw(:,:,tmpseq);        

@@ -22,7 +22,7 @@ function varargout = donut_disp(varargin)
 
 % Edit the above text to modify the response to help donut_disp
 
-% Last Modified by GUIDE v2.5 25-Jan-2017 00:27:00
+% Last Modified by GUIDE v2.5 27-Jun-2017 09:25:45
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -426,3 +426,11 @@ function ChckbxDispLine_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 % Hint: get(hObject,'Value') returns toggle state of ChckbxDispLine
+
+
+% --- Executes on button press in cal_diameter.
+function cal_diameter_Callback(hObject, eventdata, handles)
+% hObject    handle to cal_diameter (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+donut_vessdia

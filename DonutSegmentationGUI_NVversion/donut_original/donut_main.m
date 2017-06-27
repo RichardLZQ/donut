@@ -112,10 +112,10 @@ function BttnShutDown_Callback(hObject, eventdata, handles)
 selection=questdlg('Do you want to shut down/restart the GUI?','Close Request','Shutdown','Restart','Cancel','Cancel');
 switch selection
     case 'Restart'
-        donut_shutdownfunc;
+        close(gcbf);
         donut_main;
     case 'Shutdown'
-        donut_shutdownfunc;
+        close(gcbf);
     case 'No'
         return
 end

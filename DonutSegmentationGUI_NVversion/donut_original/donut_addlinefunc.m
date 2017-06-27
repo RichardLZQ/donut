@@ -22,7 +22,7 @@ else
     dx = gh.data.vess_ix(end,2)-gh.data.vess_ix(end,1);    
     dy = gh.data.vess_iy(end,2)-gh.data.vess_iy(end,1);
     m = dy/dx;
-    for ii = 1:20
+    for ii = 1:10
         gh.data.LblMaskV(round(gh.data.vess_ix(end,1) + ii*dx/10),...
             round(gh.data.vess_iy(end,1) + m*ii*dx/10)-1) = size(gh.data.vess_ix,1);
     end
