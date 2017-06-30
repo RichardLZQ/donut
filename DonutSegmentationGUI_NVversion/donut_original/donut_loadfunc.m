@@ -39,5 +39,6 @@ gh.data.ImRaw=single(DataTemp.ImRaw);
 gh.data.ImRawAvg=mean(gh.data.ImRaw,3);
 gh.data.ImRawMax=max(gh.data.ImRaw,[],3);
 gh.param.InferFlag=0;
+gh.data.ImReg=gh.data.ImRaw;
 
 donut_disp;
