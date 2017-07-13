@@ -22,7 +22,7 @@ function varargout = donut_disp(varargin)
 
 % Edit the above text to modify the response to help donut_disp
 
-% Last Modified by GUIDE v2.5 27-Jun-2017 09:25:45
+% Last Modified by GUIDE v2.5 13-Jul-2017 13:38:34
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -434,3 +434,11 @@ function cal_diameter_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 donut_vessdia
+
+
+% --- Executes on button press in Delines.
+function Delines_Callback(hObject, eventdata, handles)
+% hObject    handle to Delines (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+donut_removelinefunc
